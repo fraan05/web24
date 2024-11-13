@@ -47,7 +47,8 @@ body {
 }
 
 .col-3 {
-    width: 25%;
+    width: 30%;
+    margin: auto;
 }
 
 .col-4 {
@@ -99,7 +100,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
     border-radius: 10px;
 }
 nav ul{
@@ -126,11 +127,12 @@ nav li {
 }
 
 nav li a {
-    color: rgb(70, 0, 110);
+    color: rgb(163, 0, 0);
 }
 
 nav li:hover {
-    background-color:  rgb(225, 245, 253);
+    background-color:  rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(163, 0, 0);
 }
 
 .text-right{
@@ -154,7 +156,7 @@ a {
 }
 
 .bg-azul-o {
-    background-color: rgb(222, 100, 0);
+    background-color: rgb(143, 0, 0);
 }
 .bg-azul-c {
     background-color: rgb(240, 249, 252);
@@ -234,7 +236,7 @@ h1 {
     list-style-type: decimal;
 }
 #listas .customico li li {
-    list-style-image: url("../img/corazon.png");
+    list-style-image: url("../img/alas.jpg");
 }
 #listas .customico li li li{
     list-style-image: none;
@@ -245,18 +247,18 @@ h1 {
 }
 #listas .listadefcustom dt {
     display: inline;
-    background-color: rgb(244, 127, 255);
+    background-color: rgb(255, 131, 127);
     color: rgb(15, 15, 36);
     font-size: 22px;
     font-weight: bold;
 }
 
 .pares {
-    background-color: brown;
+    background-color: rgb(68, 68, 68);
 }
 
 .impares {
-    background-color: aqua;
+    background-color: rgb(148, 0, 0);
 }
 
 .LMSG {
@@ -315,15 +317,18 @@ h1 {
     width: 50%;
     margin: 0 auto;
     background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(97, 0, 0);
 }
 .formhtml5 legend {
-    background-color: rgb(255, 145, 0);
+    background-color: rgb(143, 0, 0);
     color: white;
+    
     font-size: 22px;
 }
 .formhtml5 label {
-    background-color: rgb(255, 145, 0);
-    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(143, 0, 0);
+    box-shadow: 0 0 5px rgb(97, 0, 0);
     font-size: 16px;
 }
 .btn {
@@ -337,6 +342,23 @@ h1 {
     color: white;
 }
 .btn-green {
-    background-color: rgb(153, 0, 140);
+    background-color: rgb(143, 0, 0);
     color: rgb(255, 255, 255);
+}
+.fila {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.foto {
+    width: 375px;  
+  height: 350px; 
+  object-fit: cover; 
+  border-radius: 3px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
 }
